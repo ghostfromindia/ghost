@@ -6,11 +6,11 @@
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/schedulebg"
+        android:layout_height="40dp"
+        android:background="@drawable/gridbg"
         android:text="TextView"
         android:layout_margin="1dp"
-        android:layout_gravity="start"
+        android:gravity="center_vertical"
         android:padding="5dp"
         android:textColor="#000"/>
 </LinearLayout>

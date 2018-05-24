@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.upcoming">
+    tools:context=".fragmenthome.upcoming">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -12,9 +12,16 @@
         android:layout_height="match_parent"
         android:text="Data loading.." />
 
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/liveSchedule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </FrameLayout>
