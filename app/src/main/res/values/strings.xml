@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">ghost_fantasy</string>
-    <string name="title_activity_match">match</string>
+    <string name="app_name">Dream 11 Fantasy News</string>
+    <string name="title_activity_match">Match</string>
     <string name="title_home">Loading data</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
